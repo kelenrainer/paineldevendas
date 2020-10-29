@@ -1,0 +1,70 @@
+body{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #DCDCDC;
+}
+
+a{
+  text-decoration: none;
+}
+
+.row{
+  font-size: 15px;
+  position: relative;
+  font-style: italic;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.botaoFooter{
+  font-style: italic;
+  font-family: 'Balsamiq Sans', cursive;
+  margin-top: 12px;
+  padding: 5px 50px 1px 35px;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 330px;
+  background-color: #c49a3d;
+  color: #fff;
+}
+.page-header{
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin-top: -52px;
+  font-size: 40px;
+  background-color: #07304d;
+}
+
+.rodape{
+  width: 100%;
+  height: 150px;
+  background-color: #07304d;
+  text-align: center;
+}
+.footer{
+  margin-top: 10px;
+}
+
+@media  (min-width: 1200px){ 
+ .card{
+  margin-left: 160px;
+  }
+}
+
+@media (max-width: 1200px){ 
+  .botaoFooter{
+     margin-left: 100px;
+   }
+   .row{
+    align-content: center;
+  }
+ }
+ @media (max-width: 400px) {
+	body {
+		height: 100%;
+  }
+  .botaoFooter{
+    margin-left: 50px;
+  }
+}
